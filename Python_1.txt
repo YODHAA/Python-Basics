@@ -153,5 +153,15 @@ Print Function:
 
 
   
+  Chapter 3:
+  -----------
+
+  1. pass:
+
+     x=18
+     if x>18
+        pass
+
+  2. 
  
 
