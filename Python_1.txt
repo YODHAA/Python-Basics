@@ -1,0 +1,157 @@
+Python: 
+=======
+ 
+1. Data Analysis.
+2. Artificial Intillegence
+3. Web Development using Flask or Django.
+
+Why Python 3?
+
+Python creator : Guido van Rossum (2008) released python 3.
+
+SAURABH@SPY-WAR MINGW64 /d/Projects-Simplified/Python_Notes/Work_Book
+$ mkdir "saurabh"
+
+ctrl+shift+P
+
+                                 Chapter-0
+                                 ----------
+
+1. rm -rf folder_name/
+2. touch hello.py
+3. code hello.py
+4. mv file1.py file2.py  (renaming)
+5. mv file2.py ./newfolder (copy the file2 from current folder to newfolder).
+6. mv file2.py ..  (move file one folder up in dir).
+7. cp file2.py ./newfolder (will copy into current sub diirectory).
+
+
+Print Function:
+----------------
+ 1. Quotes single and double quotes . 
+ 2. but if used backslash with double quotes inside double quotes . no error.
+ 3.  \" \" , 	\' , \\ , \n , \t ,\b . all escape sequence characters can be used.
+ 4. ctrl + /  : whole line commented out. 
+ 5. print escape as a normal text:
+        print("hello \\n world")
+
+ 6. \' ---- ' and \\ ---- \  to print (\') we write : (\\\')
+ 7.  \n ---- write it as \\n .
+ 8. print(r"hello \n world")  : this will help in printing escape sequence as normal text.
+ 9. Print emoji :
+
+ 10. float division: a/b;
+     integer division: a//b 
+      in python
+
+ 11. exponent: print(2**3)
+ 12. print(round(2**0.5,4)) will print till 4 digits.
+
+
+ Variables:
+ ------------
+
+  1. Dynamic Programming Language: change variable content at run time. 
+              var =123
+              var ="harsh"
+  2. Snake case writing: python 
+      Camel case writing: java
+
+
+ String :
+ -----------
+
+  1. s1="ds",s2="sd"; s3=s1+" " + s2;
+      print(s3)
+
+  2. s1= str(3)    ; connvert number to string.
+  3. s1=s2*3       ; string s2 is multiplied thrice.
+
+
+ User Input:
+ -------------
+ 
+ 1. name=input("enter input :")        ; takes input as string 
+
+ 2. n1=int(input("enter a :"))
+    s1= n1 + n2;
+    print("number is: "+ str(s1))      ; convert number to string .
+      
+         int(str)
+         float(str)
+
+
+ 3. storing more variables in one row: 
+
+        * name,age= "harsh",24
+        *  x=y=z=1
+           print(x+y+z)
+
+      or name,age=int(input("enter name and age: ")).split()
+            on seeing this divide numbers into parts.
+
+ 4. In python 3.7 no need to convert age to string or using + operator.
+
+       print(" hello {} your age is {} ".format(name,age))           
+
+    or  print(f" hello {name} your age is {age}." )
+
+ 
+
+ String Indexing:
+ --------------------
+
+ 1. 0,1,2,3 or -4,-3,-2,-1 starts indexing on string.
+ 2. slicing / selecting sub sequence:
+
+
+ 3. Step Arguments: 
+      print("harshit"[1:5:2])           ; will increment counter by step index given.
+              
+      print("harshit"[:3:-1])
+             tih
+      print("harshit"[3::-1])
+             srah
+      print("harshit"[-1::-1])           ; reverse printing
+
+
+ 4.  String Methods:
+  -------------------
+
+     1. print(len(name))                ; count spaces in between not take null count.
+     2. lower()     
+          print(name.lower())       
+
+     3. upper()
+     4. title()                    ; make each word first letter capital 
+     5. count()                    ; each chararcter count  and case sensitive
+           print(name.count("h"))
+
+     print(" { name.lower().count(char.lower()) } ")
+
+
+  5. Strip Method:
+     ---------------
+
+    1. name.lstrip()
+    2. name.rstrip()
+    3. name.strip()
+    4. name.replace(" ","")          ; remove spave with no space.
+
+    5. name.strip().count(char.strip().lower() )         ; remove spaces and character count
+
+  6. Replace and Find Methods:
+     ---------------------------
+
+     1. replace:
+         name.replace(" ","_",2)      ; will replace given spaces only two times.
+     2. find :
+         name.find("is",7)     : will find is from 7th posiiton to end of string name.
+
+     3. is_pos1=string.find("is")
+        print(string.find("is",is_pos1+1))        ; you will get the afterward position of is in var string
+
+
+  
+ 
+
